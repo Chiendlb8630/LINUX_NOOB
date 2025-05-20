@@ -36,8 +36,8 @@ A simple peer-to-peer (P2P) chat application running on Linux. It allows multipl
 ---
 
 ## Install project
-
 ```bash
 make
+./p2p <port>
 
 
