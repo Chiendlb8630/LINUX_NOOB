@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -Wall -g
+
+all: client server
+
+client: client_sock.c
+	$(CC) $(CFLAGS) -o client client_sock.c
+
+server: Socket_BT1.c
+	$(CC) $(CFLAGS) -o server Socket_BT1.c
+
+clean:
+	rm -f client server
+
